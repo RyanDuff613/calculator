@@ -15,10 +15,8 @@ function divide(number1,number2) {
 };
   
 $(document).ready(function(){
-  var number1 = parseInt(prompt("enter a number"));
-  var number2 = parseInt(prompt('enter another number'));
-  var result = multiply(number1,number2);
-
-  alert(result);
+  var number1 = parseInt($('#add1').val());
+  var number2 = parseInt($('#add2').val());
+  alert(add(number1, number2));
 });
   
