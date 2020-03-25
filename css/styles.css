@@ -8,3 +8,12 @@ form {
   float: left;
   margin: 5px;
 }
+
+#output {
+  float: left;
+  max-width: 440px;
+  min-width: 240px;
+  text-align: center;
+  font-style: bold;
+  font-size: 36px;
+}
